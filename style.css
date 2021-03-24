@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+body .container {
+  padding: 50px 0;
+  background-color: #d1d1d1;
+}
+
+body .container .inner {
+  width: 1200px;
+  margin: auto;
+}
+
+body .container .inner .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body .container .inner .header .menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body .container .inner .search {
+  background-color: white;
+  width: 800px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px 40px;
+  border-radius: 40px;
+}
